@@ -1,0 +1,552 @@
+
+***********************
+Starting Test #0: Test A: Dealer Should win with larger hand (20)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Two of Spades(2), 2 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Two of Hearts(2),Two of Spades(2), 4 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Two of Diamonds(2),Two of Hearts(2),Two of Spades(2), 6 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Two of Diamonds(2),Two of Hearts(2),Two of Spades(2), 6 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Six of Spades(6), 6 points
+Player's hand: Two of Diamonds(2),Two of Hearts(2),Two of Spades(2), 6 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Six of Hearts(6),Six of Spades(6), 12 points
+Player's hand: Two of Diamonds(2),Two of Hearts(2),Two of Spades(2), 6 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Eight of Diamonds(8),Six of Hearts(6),Six of Spades(6), 20 points
+Player's hand: Two of Diamonds(2),Two of Hearts(2),Two of Spades(2), 6 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer wins with 20.
+Dealer wins with 20.
+Dealer wins with 20.
+Goodbye!
+Dealer wins with 20.
+Passed test #0
+
+***********************
+Starting Test #1: Test B : Player should win with larger hand (19)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: King of Spades(10), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Nine of Clubs(9),King of Spades(10), 19 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),Nine of Clubs(9),King of Spades(10), 20 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),Nine of Clubs(9),King of Spades(10), 20 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Ace of Hearts(1), 1 points
+Player's hand: Ace of Diamonds(1),Nine of Clubs(9),King of Spades(10), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ace of Clubs(1),Ace of Hearts(1), 2 points
+Player's hand: Ace of Diamonds(1),Nine of Clubs(9),King of Spades(10), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Two of Spades(2),Ace of Clubs(1),Ace of Hearts(1), 4 points
+Player's hand: Ace of Diamonds(1),Nine of Clubs(9),King of Spades(10), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Player wins with 20.
+Player wins with 20.
+Goodbye!
+Player wins with 20.
+Passed test #1
+
+***********************
+Starting Test #2: Test C:  Player Should win with 21
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: King of Spades(10), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: King of Spades(10),King of Spades(10), 20 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),King of Spades(10), 21 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),King of Spades(10), 21 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Ace of Hearts(1), 1 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),King of Spades(10), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ace of Clubs(1),Ace of Hearts(1), 2 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),King of Spades(10), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Two of Spades(2),Ace of Clubs(1),Ace of Hearts(1), 4 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),King of Spades(10), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Player wins with 21.
+Player wins with 21.
+Goodbye!
+Player wins with 21.
+Passed test #2
+
+***********************
+Starting Test #3: Test D:  Player Should win with 20
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Eight of Spades(8), 8 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Eight of Hearts(8),Eight of Spades(8), 16 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Four of Hearts(4),Eight of Hearts(8),Eight of Spades(8), 20 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Four of Hearts(4),Eight of Hearts(8),Eight of Spades(8), 20 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Ace of Hearts(1), 1 points
+Player's hand: Four of Hearts(4),Eight of Hearts(8),Eight of Spades(8), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ace of Clubs(1),Ace of Hearts(1), 2 points
+Player's hand: Four of Hearts(4),Eight of Hearts(8),Eight of Spades(8), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Two of Spades(2),Ace of Clubs(1),Ace of Hearts(1), 4 points
+Player's hand: Four of Hearts(4),Eight of Hearts(8),Eight of Spades(8), 20 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Player wins with 20.
+Player wins with 20.
+Goodbye!
+Player wins with 20.
+Passed test #3
+
+***********************
+Starting Test #4: Test E: Dealer Should Win (Player Busts)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Ten of Hearts(10), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Eight of Hearts(8),Ten of Hearts(10), 18 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Nine of Clubs(9),Eight of Hearts(8),Ten of Hearts(10), 27 points
+
+Dealer wins with 0.
+Dealer wins with 0.
+Goodbye!
+Dealer wins with 0.
+Passed test #4
+
+***********************
+Starting Test #5: Test F: Player Wins (Dealer Busts)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Four of Spades(4), 4 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Two of Diamonds(2),Four of Spades(4), 6 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Three of Spades(3), 3 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ten of Spades(10),Three of Spades(3), 13 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Jack of Clubs(10),Ten of Spades(10),Three of Spades(3), 23 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Player wins with 7.
+Goodbye!
+Player wins with 7.
+Passed test #5
+
+***********************
+Starting Test #6: Test G: Player Wins (Dealer Busts)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Four of Spades(4), 4 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Two of Diamonds(2),Four of Spades(4), 6 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Three of Spades(3), 3 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ten of Spades(10),Three of Spades(3), 13 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Jack of Clubs(10),Ten of Spades(10),Three of Spades(3), 23 points
+Player's hand: Ace of Hearts(1),Two of Diamonds(2),Four of Spades(4), 7 points
+
+Player wins with 7.
+Goodbye!
+Player wins with 7.
+Passed test #6
+
+***********************
+Starting Test #7: Test H: Player Win's with 21
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Queen of Spades(10), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: King of Spades(10),Queen of Spades(10), 20 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),Queen of Spades(10), 21 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),Queen of Spades(10), 21 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Queen of Clubs(10), 10 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),Queen of Spades(10), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: King of Hearts(10),Queen of Clubs(10), 20 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),Queen of Spades(10), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ace of Clubs(1),King of Hearts(10),Queen of Clubs(10), 21 points
+Player's hand: Ace of Diamonds(1),King of Spades(10),Queen of Spades(10), 21 points
+
+Dealer wins with 21.
+Goodbye!
+Dealer wins with 21.
+Failed test #7
+
+***********************
+Starting Test #8: Test I: Test Player Points - should be 14
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Five of Spades(5), 5 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Five of Hearts(5),Five of Spades(5), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Queen of Clubs(10), 10 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: King of Hearts(10),Queen of Clubs(10), 20 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Ace of Clubs(1),King of Hearts(10),Queen of Clubs(10), 21 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer wins with 21.
+Goodbye!
+Passed test #8
+
+***********************
+Starting Test #9: Test J: Test Dealer Points - should be 17 (dealer stands on > 16)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Five of Spades(5), 5 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Five of Hearts(5),Five of Spades(5), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Six of Spades(6), 6 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Six of Hearts(6),Six of Spades(6), 12 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Five of Clubs(5),Six of Hearts(6),Six of Spades(6), 17 points
+Player's hand: Four of Diamonds(4),Five of Hearts(5),Five of Spades(5), 14 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer wins with 17.
+Dealer wins with 17.
+Dealer wins with 17.
+Goodbye!
+Passed test #9
+
+***********************
+Starting Test #10: Test K (WIP): Dealer wins on tie with player at 21 (dealer stands on > 16)
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: Seven of Spades(7), 7 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Seven of Hearts(7),Seven of Spades(7), 14 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Seven of Diamonds(7),Seven of Hearts(7),Seven of Spades(7), 21 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Seven of Diamonds(7),Seven of Hearts(7),Seven of Spades(7), 21 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Six of Clubs(6), 6 points
+Player's hand: Seven of Diamonds(7),Seven of Hearts(7),Seven of Spades(7), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Seven of Clubs(7),Six of Clubs(6), 13 points
+Player's hand: Seven of Diamonds(7),Seven of Hearts(7),Seven of Spades(7), 21 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Eight of Clubs(8),Seven of Clubs(7),Six of Clubs(6), 21 points
+Player's hand: Seven of Diamonds(7),Seven of Hearts(7),Seven of Spades(7), 21 points
+
+Dealer wins with 21.
+Goodbye!
+Passed test #10
+
+***********************
+Starting Bonus Test #0: BONUS: A: Player wins with True Black Jack
+Let's Play BlackJack!
+How to Play BlackJack
+
+The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins.
+
+Have fun!
+
+Dealer's hand:  0 points
+Player's hand:  0 points
+Player's Turn: Hit (h) or Stand (s)? 
+Player hits...
+Dealer's hand:  0 points
+Player's hand: King of Spades(10), 10 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Diamonds(1),King of Spades(10), 11 points
+
+Player's Turn again: Hit (h) or Stand (s)? Player hits...
+Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Ace of Diamonds(1),King of Spades(10), 12 points
+
+Player's Turn again: Hit (h) or Stand (s)? Dealer's hand:  0 points
+Player's hand: Ace of Hearts(1),Ace of Diamonds(1),King of Spades(10), 12 points
+Dealer's Turn: Hit (h) or Stand (s)? 
+Dealer hits...
+
+Dealer's hand: Ace of Clubs(1), 1 points
+Player's hand: Ace of Hearts(1),Ace of Diamonds(1),King of Spades(10), 12 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Two of Spades(2),Ace of Clubs(1), 3 points
+Player's hand: Ace of Hearts(1),Ace of Diamonds(1),King of Spades(10), 12 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Dealer hits...
+
+Dealer's hand: Two of Hearts(2),Two of Spades(2),Ace of Clubs(1), 5 points
+Player's hand: Ace of Hearts(1),Ace of Diamonds(1),King of Spades(10), 12 points
+
+Dealer's Turn again: Hit (h) or Stand (s)? Player wins with 12.
+Player wins with 12.
+Goodbye!
+Player wins with 12.
+Passed bonus test #0
