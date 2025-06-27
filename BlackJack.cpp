@@ -3,9 +3,7 @@
 #include "Hand.h"
 #include "BlackJack.h"
 
-//
 // PLAY
-//
 
   void BlackJack::play() 
 {
