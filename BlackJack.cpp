@@ -7,7 +7,6 @@
 // PLAY
 //
 
-// the method below has been written for you to help you understand how your methods will be used
   void BlackJack::play() 
 {
     std::cout << "Let's Play BlackJack!" << std::endl;
@@ -25,28 +24,30 @@
       gameOver = this->takeDealerTurn(); // AI takes a turn
       if (gameOver)
         break;
-    } // end while: game over
+    } 
 
     // note below that the winning player is who we want, not the current player
     if (getWinningPlayerId() != -1)
-      //std::cout << "Congratulations: " << playerNames[getWinningPlayerId()] << " has won the game!" << std::endl;
-    //else 
-      //std::cout << "Looks like the game was a tie" << std::endl;
+      std::cout << "Congratulations: " << playerNames[getWinningPlayerId()] << " has won the game!" << std::endl;
+    else 
+      std::cout << "Looks like the game was a tie" << std::endl;
     std::cout << "Goodbye!" << std::endl;
 
-  } // end play()
+  } 
 
 
 BlackJack::BlackJack(std::vector <std::string> _playerNames, std::vector <int> cardID) : playerNames(_playerNames), deck(cardID){}
 
+// print instructions for the game
 void BlackJack::printInstructions()
 {
   std::cout << "How to Play BlackJack" << std::endl << std::endl;
   std::cout << "The object of the game is to have a hand of cards whose values add up to 21. Each card has a value matching its number, except for Ace(1) and Jack, Queen, and King (10). A player competes with a dealer. At each turn, the player and dealer can choose to receive another card (hit) or to stop collecting cards (stand). If the player or dealer's total exceeds 21, the game ends and that person loses. If the player has a total of 21, and then the dealer takes a turn and obtains a total of 21, the dealer wins. Otherwise, the player wins. If both the player and the dealer stand, then the person whose total is closest to 21 wins. If the player's and dealer's scores are equal, then the dealer wins." << std::endl << std::endl;
   std::cout << "Have fun!" << std::endl << std::endl;
-}// print instructions for the game
+}
 
-
+/*
+Print the state of the game: player hand (all cards up), and dealer hand (all cards up).                                       */
 void BlackJack::printBoard()
 {
   std::cout << "Dealer's hand: ";
@@ -59,9 +60,11 @@ void BlackJack::printBoard()
   std::cout << " ";
   std:: cout << this->playerHand.getPoints(); 
   std::cout << " points" << std::endl;
-}// print the state of the game: player hand (all cards up), and dealer hand (all cards up)
+}
 
-
+/*
+Player takes their turn, setting winningPlayerId to -1, 0, or 1, and returning true if the game is over
+*/
 bool BlackJack::takePlayerTurn()
 {
   this->winningPlayerId = -1; // No one has won yet
@@ -87,14 +90,14 @@ bool BlackJack::takePlayerTurn()
     std::cout << "Player's Turn again: Hit (h) or Stand (s)? ";
     std::cin >> turnChoice;
   }
-  // if (this->getWinningPlayerId() == 0 || this->getWinningPlayerId() == 1)
-  //     return true;   
+  if (this->getWinningPlayerId() == 0 || this->getWinningPlayerId() == 1)
+      return true;   
   return false; 
 }
-  
-// Player takes their turn, setting winningPlayerId to -1, 0, or 1, and returning true if the game is over
 
-
+/*
+Dealer takes a turn, setting winningPlayerId to -1, 0, or 1, and returning true if the game is over.
+  */
 bool BlackJack::takeDealerTurn()
 {
   this->winningPlayerId = -1; // No one has won yet
@@ -114,7 +117,7 @@ bool BlackJack::takeDealerTurn()
     std::cout << " " << this->getPlayerPoints() << " points" << std::endl << std::endl;
     if (this->getDealerPoints() >= 21) // End of game condition
     {
-      //this->getWinningPlayerId();
+      this->getWinningPlayerId();
       return true;
     }
     std::cout << "Dealer's Turn again: Hit (h) or Stand (s)? ";
@@ -123,9 +126,9 @@ bool BlackJack::takeDealerTurn()
   if (this->getWinningPlayerId() == 0 || this->getWinningPlayerId() == 1)
       return true;  
  return false; 
-}// Dealer takes a turn, setting winningPlayerId to -1, 0, or 1, and returning true if the game is over
+}
 
-
+// return the value of the private winningPlayerId, as set by isWin()
 int BlackJack::getWinningPlayerId()
 {
   if (this->playerHand.getPoints() > 21) // Player goes over the limit
@@ -159,16 +162,21 @@ int BlackJack::getWinningPlayerId()
   }  
   else
     return this->winningPlayerId; // Placeholder for non-void function
-}// return the value of the private winningPlayerId, as set by isWin().
+}
 
 
+/*
+Return the points for the player's hand by calling Hand::playerHand->getPoints()
+  */
 int BlackJack::getPlayerPoints()
 {
   return this->playerHand.getPoints();
-}// return the points for the player's hand by calling Hand::playerHand->getPoints()
+}
 
-
+/*
+Return the points for the dealer's hand by calling Hand::dealerHand->getPoints()
+  */
 int BlackJack::getDealerPoints()
 {
   return this->dealerHand.getPoints();
-}// return the points for the dealer's hand by calling Hand::dealerHand->getPoints()
+}
