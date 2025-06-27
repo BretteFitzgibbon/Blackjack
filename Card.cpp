@@ -2,22 +2,25 @@
 #include <string>
 #include "Card.h"
 
-// This cpp file has been implemented for you
-// You should not need to change it.
-
+/*
+Each card ID tells us the exact type of card we need to created. Valid IDs go from 0 to 51; -1 indicates an invalid card.
+Note that the cards IDs are ordered by suit and groups in fours like: 
+   0 == Ace of Spades 
+   1 == Ace of Hearts
+   2 == Ace of Diamonds
+   3 == Ace of Clubs, 
+   4 == Two of Spades
+   5 == Two of Hearts
+   6 == Two of Diamonds
+   7 == Two of Clubs, 
+    ...
+  */
+ 
 Card::Card(int ID)   
-{ // each card ID tells us the exact type of card we need to created
-
-  // Valid IDs go from 0 to 51; -1 indicates an invalid card
-   
-   // note the cards IDs are ordered by suit and groups in fours like: 
-   //  0 == Ace of Spades; 1 == Ace of Hearts; 2 == Ace of Diamonds; 3 == Ace of Clubs, 
-   //  4 == Two of Spades; 5 == Two of Hearts; 6 == Two of Diamonds; 7 == Two of Clubs, 
-   // ...
-   //
-
-   if (ID == -1)
-   { // bad card indicator = we'll call this the JOKER
+{ 
+   // bad card indicator = we'll call this the JOKER
+  if (ID == -1)
+   { 
       value = -1; 
       name = "Joker";
       suit = "None";
@@ -27,10 +30,9 @@ Card::Card(int ID)
    std::vector <std::string> suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
    suit = suits[ID % 4]; // assign the name of the suit based on the ID MODULO 4
 
-   switch(ID/4)
-   { 
-    // NOTE: We assign the point value and name based on the DIVISION of ID by 4
-     
+   // Assign the point value and name based on the DIVISION of ID by 4
+  switch(ID/4)
+   {     
      case 0: // ACE
       value = 1;
       name = "Ace";
@@ -96,7 +98,8 @@ Card::Card(int ID)
      name = "King";
      break;
 
-    default: // Joker (JUNK)  // we should not have one of these in our deck
+     // Joker (JUNK). We should not have one of these in our deck
+     default: 
       value = -1; 
       name = "Joker";
       break;
