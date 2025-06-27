@@ -1,48 +1,49 @@
 #include <list>
 #include <vector>
-
 #include "Card.h"
 #include "Hand.h"
 
-Hand::Hand(std::vector <int> initialCards) // Constructor
+// constructor
+Hand::Hand(std::vector <int> initialCards) 
 {
   for (auto card: initialCards)
       this->cards.push_back(card); // Card is added to the hand
 }
 
-
+// print out the hand from “top to bottom”
 void Hand::printMe()
 {
   for (auto item: this->cards)
     std::cout << item.name << " of " << item.suit << "(" << item.value << "),";
-}// print out the hand from “top to bottom”
+}
 
 
 int Hand::size()
 {
   int counter = 0;
+  // Count the number of cards in the hand
   for (auto q = this->cards.begin(); q != this->cards.end(); q++)
-    counter++; // Count the number of cards in the hand
+    counter++; 
   std::cout << "This hand has " << counter << " cards." << std::endl;
   return counter;
 }
 
-
+// “deal” a card from the top: remove it and return a copy of it
 Card Hand::dealACard()
 {    
   Card aCard = this->cards.front();
   this->cards.pop_front(); // Front of the deck is dealt
   return aCard;
 }
-// “deal” a card from the top: remove it and return a copy of it
 
+// add a new card to the top of a Hand
  void Hand::addACard(Card newCard)
 {
   this->cards.push_front(newCard); 
 }
-// add a new card to the top of a Hand
 
 
+// return an integer value that represents the sum of all card values in this Hand
 int Hand::getPoints()
 {
   int points = 0;
@@ -50,9 +51,9 @@ int Hand::getPoints()
     points += item.value; // Add the value of the card to the total number of points
   return points;
 }
-// return an integer value that represents the sum of all card values in this Hand
 
 
+// Return true if the Hand currently contains any Ace card
 bool Hand::hasAnAce()
 {
   for (auto item: this->cards)
@@ -62,4 +63,4 @@ bool Hand::hasAnAce()
     }
   return false;
 }
-// BONUS: return true if the Hand currently contains any Ace card
+
