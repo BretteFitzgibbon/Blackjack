@@ -6,6 +6,8 @@
 #include <thread>
 #include <chrono>
 #include <algorithm>
+#include <random>
+
 #include "BlackJack.h"
 
 
@@ -165,7 +167,9 @@ void testMe(){
       std::vector<int> cardIDs; // we'll fill this up with card ids zero to 51
       for(int i=0; i<52; i++) 
         cardIDs.push_back(i);  // here we are pushing integers which represent card IDS
-      random_shuffle(cardIDs.begin(), cardIDs.end());
+      std::random_device rd;
+      std::mt19937 g(rd());
+      std::shuffle(cardIDs.begin(), cardIDs.end(), g);
       BlackJack game({"Player", "Dealer"}, cardIDs);
       game.play();
       if (game.getWinningPlayerId() == 1){
@@ -191,7 +195,9 @@ void testMe(){
       std::vector<int> cardIDs; // we'll fill this up with card ids zero to 51
       for(int i=0; i<52; i++) 
         cardIDs.push_back(i);  // here we are pushing integers which represent card IDS
-      random_shuffle(cardIDs.begin(), cardIDs.end());
+      std::random_device rd;
+      std::mt19937 g(rd());
+      std::shuffle(cardIDs.begin(), cardIDs.end(), g);
       BlackJack game({"Player", "Dealer"}, cardIDs);
       game.play();
       if (game.getWinningPlayerId() == 0){
@@ -218,7 +224,9 @@ void testMe(){
       std::vector<int> cardIDs; // we'll fill this up with card ids zero to 51
       for(int i=0; i<52; i++) 
         cardIDs.push_back(i);  // here we are pushing integers which represent card IDS
-      random_shuffle(cardIDs.begin(), cardIDs.end());
+      std::random_device rd;
+      std::mt19937 g(rd());
+      std::shuffle(cardIDs.begin(), cardIDs.end(), g);
       BlackJack game({"Player", "Dealer"}, cardIDs);
       game.play();
       if (game.getWinningPlayerId() == 0){
@@ -244,7 +252,9 @@ void testMe(){
       std::vector<int> cardIDs; // we'll fill this up with card ids zero to 51
       for(int i=0; i<52; i++) 
         cardIDs.push_back(i);  // here we are pushing integers which represent card IDS
-      random_shuffle(cardIDs.begin(), cardIDs.end());
+     std::random_device rd;
+      std::mt19937 g(rd());
+      std::shuffle(cardIDs.begin(), cardIDs.end(), g);
      // BlackJack game({"Player", "Dealer"}, cardIDs);
       BlackJack game({"Player", "Dealer"}, {44, 48, 2, 47, 49, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 });
       game.play();

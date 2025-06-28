@@ -3,6 +3,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
+#include <random>
 
 #include "Hand.h"
 #include "Card.h"
@@ -30,7 +31,9 @@ int main()
   std::vector<int> cardIDs; // fill this up with card ids zero to 51
   for(int i = 0; i < 52; i++)  
     cardIDs.push_back(i); // push integers which represent card IDS 
-  random_shuffle(cardIDs.begin(), cardIDs.end()); // user iterators to shuffle the vector of cardIDs
+  std::random_device rd; // random number generator
+  std::mt19937 g(rd()); // random seed
+  std::shuffle(cardIDs.begin(), cardIDs.end(), g); // user iterators to shuffle the vector of cardIDs
 
   Hand myDeck(cardIDs); // give the Hand constructor a vector of INTEGERS 
   myDeck.printMe(); // print the Hand we constructed
