@@ -1,78 +1,89 @@
-What This Program Does: 
+What This Program Does:
 
--- A game of blackjack played by two humans (not an AI).
+— An object-oriented game of blackjack, with classes for Blackjack, Card, and Hand and a total of 13 methods.
 
+— Incorporates composed classes, list containers and iterators, and vector containers.
 
-What This Program Entails: 
+________________________________________
 
--- Object-oriented, with classes for Blackjack, Card, and Hand and a total of 13 methods.
+How to Build and Run:
 
--- Incorporates composed classes, list containers and iterators, and vector containers. 
+In Replit:
 
+1) Create an account on replit.com if you don’t have one
 
-Future Directions:
+2) Click on the REPL link above
 
--- Playing against an AI
+3) Remix this app
 
+4) Run
 
-Note: 
+5) Click on >_Console tab
 
--- This was a homework assignment in which the professor wrote the test suite. 
+6) Play a game! Grab a friend to be the dealer, or play as both the player and the dealer — a win-win!
 
+_______________________________________
+
+In the Terminal:
+
+Requires C++ 17
+
+1) Go to the above GitHub link, click on Code, and copy the URL from the HTTPS tab
+
+2) In the terminal: git clone <URL>
+
+3) If you don’t have command line tools installed
+
+xcode-select –install
+
+4) Click Install when the pop-up comes up
+
+5) Agree to the License Agreement
+
+6) Wait about 15 minutes for installation to complete
+
+7) In the terminal, navigate to the game’s directory:
+
+cd Blackjack
+
+8) Compile:
+
+clang++ -std=c++17 *.cpp -o Blackjack
+
+9) Run:
+
+./Blackjack
+
+10) Find a partner and play as many times as it takes for you to win. If you win the first game, stop playing.
+
+_________________________________________
 
 Sample Output:
-```
-Let's Play BlackJack!
-Try to get closest to 21 without going over
-Dealer's hand: { } 0 points
-Player's hand: { } 0 points
 
-Player's Turn: Hit (h) or Stand (s)? h
-Player hits...
-Dealer's hand: { } 0 points
-Player's hand: { Two of Hearts(2), } 2 points
+Dealer’s hand: 0 points
+Player’s hand: 0 points
+Player’s Turn: Hit (h) or Stand (s)? h
 
-Player's Turn again: Hit (h) or Stand (s)? h
-Player hits...
-Dealer's hand: { } 0 points
-Player's hand: { Queen of Hearts(10), Two of Hearts(2), } 12 points
+Player hits…
+Dealer’s hand: 0 points
+Player’s hand: Seven of Hearts(7), 7 points
 
-Player's Turn again: Hit (h) or Stand (s)? h
-Player hits...
-Dealer's hand: { } 0 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
+Player’s Turn again: Hit (h) or Stand (s)? h
+Player hits…
+Dealer’s hand: 0 points
+Player’s hand: Five of Spades(5),Seven of Hearts(7), 12 points
 
-Player's Turn again: Hit (h) or Stand (s)? s
-Player Stands.
-Dealer's hand: { } 0 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
+Player’s Turn again: Hit (h) or Stand (s)? h
+Player hits…
+Dealer’s hand: 0 points
+Player’s hand: Queen of Clubs(10),Five of Spades(5),Seven of Hearts(7), 22 points
 
-Dealer's turn...
-Dealer Hits..
-Dealer's hand: { Seven of Spades(7), } 7 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
-
-Dealer Hits..
-Dealer's hand: { Ace of Diamonds(1), Seven of Spades(7), } 8 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
-
-Dealer Hits..
-Dealer's hand: { Three of Spades(3), Ace of Diamonds(1), Seven of Spades(7), } 11 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
-
-Dealer Hits..
-Dealer's hand: { Ten of Clubs(10), Three of Spades(3), Ace of Diamonds(1), Seven of Spades(7), } 21 points
-Player's hand: { Six of Spades(6), Queen of Hearts(10), Two of Hearts(2), } 18 points
-
-Dealer wins with 21.
-Congratulations: Dealer has won the game!
+Dealer wins with 0.
+Dealer wins with 0.
 Goodbye!
-```
 
+_________________________________________
 
+Note:
 
-
-
-
- 
-
+— This was a homework assignment in which the professor wrote the test suite.
